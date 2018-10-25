@@ -1,0 +1,92 @@
+/* Setting font family and background gradient for the entire website */
+body {
+  font-family: 'Raleway', sans-serif;
+  background: linear-gradient(#D0ADA0,#FDE0D1);
+
+}
+
+.container {
+  border: 2px dashed black;
+}
+
+/* Top navigation */
+
+nav {
+  position: relative;
+  color: #41484A;
+  background-color: #FFFAF5;
+  border: 1px solid red;
+}
+
+
+/* Nav branding positioning and size */
+.navLogo img {
+  position: relative;
+  left: 50%;
+  top: 2rem;
+  margin-left: -4rem;
+  background-color: white;
+  width: 8rem;
+  border: 1pt solid #41484A;
+  border-radius: 2px;
+}
+
+/* text inside nav positioning  */
+.navDescription {
+  margin: auto;
+  max-width: 80%;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+/* Styling text within nav */
+nav h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+nav h2 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+/* Styling links of the nav bar */
+ul {
+  list-style-type: none;
+  height: 40px;
+  padding: 0;
+}
+
+.navLink1 {
+  float: left;
+  color: #41484A;
+  font-size: 1.6rem;
+  font-weight: 500;
+  padding: 2rem 0;
+}
+
+.navLink2 {
+  float: right;
+  color: #41484A;
+  font-size: 1.6rem;
+  font-weight: 500;
+  padding: 2rem 0;
+}
+
+.navLink1:active, .navLink1:hover, .navLink2:active, .navLink2:hover {
+  color: #41484A;
+}
+
+.navigation {
+  border: 1px dashed red;
+}
+
+
+/* Section with the projects */
+.Projects {
+  height: 1600px;
+  border: 1px solid white;
+  background-color: rgba(255,255,255,0.2);
+}
