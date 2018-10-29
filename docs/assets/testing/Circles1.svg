@@ -1,0 +1,14 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360.5 103.1">
+  <defs>
+    <style>.cls-1{fill:#b25756;}</style>
+  </defs>
+  <title>Circles1</title>
+  <circle class="cls-1" cx="50" cy="50" r="50"/>
+  <path
+    class="cls-1"
+    d="M441.14,246l0.11,50h-0.11a50,50,0,1,1,50-50h-50Z"
+    transform="translate(-248.66 -196)"/>
+  <path
+    class="cls-1"
+    d="M559.16,249.1h50a50,50,0,1,0-50,50v-50Z"
+    transform="translate(-248.66 -196)"/></svg>

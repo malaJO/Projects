@@ -1,0 +1,104 @@
+.Resume {
+  position: relative;
+  top: 36rem;
+  background-color: #FFFAF5;
+}
+
+.barBkg {
+  background-color: #FDE0D1;
+  height: 2rem;
+
+}
+
+.SkillsText{
+  font-size: 1.6rem;
+  font-weight: 700;
+  padding: 1rem 0;
+  text-align: left;
+}
+
+.barText {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 0;
+  text-align: left;
+  color: #41484A;
+}
+
+
+.oneSkill {
+  padding: 0.4rem 0;
+}
+
+
+.barIllustrator {
+  position: absolute;
+  left: 0;
+  content: '';
+  height: 100%;
+  background-color: #CCA69B;
+  animation-name: filling;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+}
+
+
+
+@keyframes filling {
+  0% {
+    width: 0;
+    background: #FFFAF5;
+  }
+  /* 50% {
+    width: 50%;
+    background: #FDE0D1;
+  } */
+  100% {
+    background: #CCA69B;
+  }
+}
+
+.pieCircle {
+  animation: fillCircle 2s reverse;
+  transform: rotate(-90deg);
+  transform-origin: center;
+}
+
+@keyframes fillCircle {
+  to { stroke-dasharray: 0 100; }
+}
+
+.language {
+  position: relative;
+  padding: 0;
+}
+
+.pieChartText {
+  position: absolute;
+    width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #41484A;
+  font-weight: 600;
+}
+
+.pieChartText span {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.pieChart {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+footer {
+  margin-top: 38rem;
+}

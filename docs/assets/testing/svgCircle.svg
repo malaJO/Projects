@@ -1,0 +1,23 @@
+<!-- <svg id="Layer_1"
+    data-name="Layer 1"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 104 104">
+    <defs>
+      <style>.cls-1{fill:none;stroke:#231f20;stroke-miterlimit:10;stroke-width:4px;}
+      </style>
+    </defs>
+    <title>svgCircle</title>
+    <circle class="cls-1" cx="52" cy="52" r="50"/>
+  </svg> -->
+
+
+  <svg id="Layer_1"
+    data-name="Layer 1"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 104 104.02">
+    <defs>
+      <style>.cls-1{fill:none;stroke:#231f20;stroke-miterlimit:10;stroke-width:4px;}
+      </style>
+    </defs>
+    <title>svgSemiCircle</title>
+    <path class="cls-1" d="M468.47,246h50A50,50,0,1,1,468,196Z" transform="translate(-416.47 -193.98)"/></svg>
