@@ -1,0 +1,42 @@
+/* Styling nav differently for the individual projects sections */
+
+nav {
+  position: static;
+}
+
+.JPlogo {
+  position: absolute;
+}
+
+/* Styling text in the project description */
+
+.Project {
+  padding: auto 0;
+}
+
+.container{
+  padding: 0;
+}
+
+.explanation {
+  font-weight: 400;
+  font-style: italic;
+}
+
+.Project h1 {
+  padding: 20px 0;
+}
+
+.Project p {
+  padding: 16px 28px;
+}
+
+section a, a:hover, a:active  {
+  color: #41484A;
+}
+
+/* Normal margin on footer part */
+
+footer {
+  margin: 0;
+}
