@@ -6,34 +6,105 @@ nav {
 
 .JPlogo {
   position: absolute;
+  z-index: 100;
 }
+
+/* Styling headline Image */
+
+.headlineImageAzera {
+  height: 50vh;
+  background: url('assets/Projects/Azera/BuzzingIll.png');
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: repeat-x;
+}
+
+.headlineImageHashtag {
+  height: 50vh;
+  background: url('assets/Projects/Hashtag/ScreensComposition.png');
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: repeat-x;
+}
+
+.container {
+  padding: auto 0;
+  background-color: #FFFAF5;
+}
+
+
+.mainText {
+  position: relative;
+}
+
+
+.shortSummary {
+/* positioning the element to the right of the container div */
+  position: absolute;
+  top: 6rem;
+  left: 100%;
+  display: inline-block;
+  margin-left: 1rem;
+  display: inline;
+  width: 16rem;
+}
+
+.shortSummary img {
+  width: 8rem;
+}
+
+.shortSummary h6 {
+  padding: 0;
+  margin: 0;
+  display: none;
+  width: 6rem;
+  color: #FFFAF5;
+}
+
+.explainBadge:hover > .explain {
+  display: inline-block;
+}
+
 
 /* Styling text in the project description */
 
-.Project {
-  padding: auto 0;
+section h1 {
+  padding-top: 80px ;
+  font-size: 3rem;
+  font-weight: 800;
 }
 
-.container{
-  padding: 0;
+
+section h3 {
+  padding: 1rem 1.6rem;
+  text-align: left;
+  font-size: 2.6rem;
+  font-weight: 800;
+  color: #41484A;
 }
 
-.explanation {
-  font-weight: 400;
+cite {
+  margin-left: 20rem;
+  margin-right: 2rem;
+  padding: 1rem 4rem;
+  display: block;
+  border-right: 1px solid #CCA69B;
   font-style: italic;
 }
 
-.Project h1 {
-  padding: 20px 0;
-}
-
-.Project p {
-  padding: 16px 28px;
+section p {
+  padding: 0.6rem 2rem;
 }
 
 section a, a:hover, a:active  {
   color: #41484A;
 }
+
+.headlineImage {
+  position: relative;
+}
+
+
 
 /* Normal margin on footer part */
 
