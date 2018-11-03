@@ -9,7 +9,7 @@ nav {
   z-index: 100;
 }
 
-/* Styling headline Image */
+/* Styling headline Images for all projects */
 
 .headlineImageAzera {
   height: 50vh;
@@ -22,6 +22,38 @@ nav {
 .headlineImageHashtag {
   height: 50vh;
   background: url('assets/Projects/Hashtag/ScreensComposition.png');
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: repeat-x;
+}
+
+.headlineImageMTB {
+  height: 50vh;
+  background: url('assets/Projects/MTB/HeadComposition.png');
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: repeat-x;
+}
+
+.headlineImageWS {
+  height: 50vh;
+  background: url('assets/Projects/WalkingStrategy/HeadCompositionWhite.png');
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: repeat-x;
+}
+
+.headlineImageSkillshare {
+  height: 50vh;
+  background: url('assets/Projects/Skillshare/HeadCompositionTransp1.png');
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: repeat-x;
+}
+
+.headlineImageLand {
+  height: 50vh;
+  background: url('assets/Projects/LandUse/HeadComposition.png');
   background-size: auto 100%;
   background-position: center;
   background-repeat: repeat-x;
