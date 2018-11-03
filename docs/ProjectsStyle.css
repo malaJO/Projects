@@ -9,55 +9,57 @@ nav {
   z-index: 100;
 }
 
-/* Styling headline Images for all projects */
+/* Styling headline Images for each project */
 
-.headlineImageAzera {
-  height: 50vh;
+
+#Azera {
   background: url('assets/Projects/Azera/BuzzingIll.png');
   background-size: auto 100%;
-  background-position: center;
-  background-repeat: repeat-x;
 }
 
-.headlineImageHashtag {
-  height: 50vh;
+#Hashtag {
   background: url('assets/Projects/Hashtag/ScreensComposition.png');
   background-size: auto 100%;
-  background-position: center;
-  background-repeat: repeat-x;
 }
 
-.headlineImageMTB {
-  height: 50vh;
+#MTB {
   background: url('assets/Projects/MTB/HeadComposition.png');
   background-size: auto 100%;
-  background-position: center;
-  background-repeat: repeat-x;
 }
 
-.headlineImageWS {
-  height: 50vh;
+#WS {
   background: url('assets/Projects/WalkingStrategy/HeadCompositionWhite.png');
   background-size: auto 100%;
-  background-position: center;
-  background-repeat: repeat-x;
 }
 
-.headlineImageSkillshare {
-  height: 50vh;
+#Skillshare {
   background: url('assets/Projects/Skillshare/HeadCompositionTransp1.png');
   background-size: auto 100%;
+}
+
+#Land {
+  background: url('assets/Projects/LandUse/HeadComposition.png');
+  background-size: auto 100%;
+}
+
+#DomIno {
+  background: url('assets/Projects/DomIno/DomInoIll.jpg');
+  background-size: auto 100%;
+}
+
+#Tangram {
+  background: url('assets/Projects/Tangram/HeadCompositionGreen.png');
+  background-size: auto 100%;
+}
+
+/* Styling headline Images for all projects */
+
+.headlineImage {
+  height: 50vh;
   background-position: center;
   background-repeat: repeat-x;
 }
 
-.headlineImageLand {
-  height: 50vh;
-  background: url('assets/Projects/LandUse/HeadComposition.png');
-  background-size: auto 100%;
-  background-position: center;
-  background-repeat: repeat-x;
-}
 
 .container {
   padding: auto 0;
@@ -136,6 +138,10 @@ section a, a:hover, a:active  {
   position: relative;
 }
 
+/* Styling illustrations in Tangram page */
+.Tangram * {
+  padding: 1rem;
+}
 
 
 /* Normal margin on footer part */
