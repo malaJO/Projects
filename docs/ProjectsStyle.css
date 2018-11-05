@@ -52,6 +52,21 @@ nav {
   background-size: auto 100%;
 }
 
+#Kitchen {
+  background: url('assets/Projects/Kitchen/HeadComposition.png');
+  background-size: auto 100%;
+}
+
+#ODT {
+  background: url('assets/Projects/ODT/HeadComposition.png');
+  background-size: auto 100%;
+}
+
+#EThor {
+  background: url('assets/Projects/EThor/HeadComposition.png');
+  background-size: auto 100%;
+}
+
 /* Styling headline Images for all projects */
 
 .headlineImage {
@@ -117,6 +132,13 @@ section h3 {
   color: #41484A;
 }
 
+section h4 {
+  text-align: left;
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #41484A;
+}
+
 cite {
   margin-left: 20rem;
   margin-right: 2rem;
@@ -130,7 +152,30 @@ section p {
   padding: 0.6rem 2rem;
 }
 
-section a, a:hover, a:active  {
+.p4 {
+  padding: 0;
+}
+
+section p::selection, cite::selection, a::selection {
+background: #518084;
+color: #FFFAF5;
+}
+
+section h1::selection, h3::selection, h4::selection{
+background: #30525F;
+color: #FFFAF5;
+}
+
+section a {
+  color: #41484A;
+  background-image: linear-gradient(to bottom,
+    #FFFAF5,
+    #FFFAF5 70%,
+    #D0ADA0 72%,
+    #D0ADA0);
+}
+
+section a:hover, a:active  {
   color: #41484A;
 }
 
