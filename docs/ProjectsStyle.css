@@ -63,9 +63,15 @@ nav {
 }
 
 #EThor {
-  background: url('assets/Projects/EThor/HeadComposition.png');
+  background: url('assets/Projects/EThor/HeadComposition-01.png');
   background-size: auto 100%;
 }
+
+#BDent {
+  background: url('assets/Projects/BDent/HeadComposition.png');
+  background-size: auto 100%;
+}
+
 
 /* Styling headline Images for all projects */
 
