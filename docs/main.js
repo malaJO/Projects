@@ -15,7 +15,7 @@ window.addEventListener('scroll', logScroll);
 
 function logScroll() {
   var scrollY = window.pageYOffset || document.documentElement.scrollTop;
-  console.log(scrollY);
+  // console.log(scrollY);
 }
 
 
