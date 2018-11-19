@@ -185,6 +185,10 @@ section a:hover, a:active  {
   color: #41484A;
 }
 
+.shortSummary {
+  display: none;
+}
+
 .headlineImage {
   position: relative;
 }

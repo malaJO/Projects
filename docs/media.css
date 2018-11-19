@@ -1,0 +1,31 @@
+@media (max-width: 576px) {
+
+  .navbar-fixed-top {
+    padding: 0;
+    position: absolute;
+  }
+
+  .row {
+    margin: 0;
+  }
+
+  cite {
+    margin-left: 2rem;
+  }
+
+  .scrollUp {
+    top: -32rem;
+  }
+
+  .scrollDown {
+    top: 0;
+  }
+
+  .row img {
+    padding-bottom: 2rem;
+  }
+
+
+
+
+}

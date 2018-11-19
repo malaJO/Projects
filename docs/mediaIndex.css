@@ -1,0 +1,17 @@
+@media (max-width: 576px) {
+  .Resume, .Projects {
+    top: 44rem;
+  }
+
+  footer {
+    margin-top: 44rem;
+  }
+
+  .scrollUp {
+    top: -32rem;
+  }
+
+  .scrollDown {
+    top: 0;
+  }
+}

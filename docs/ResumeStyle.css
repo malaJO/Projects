@@ -102,3 +102,9 @@
 footer {
   margin-top: 38rem;
 }
+
+@media (max-width: 576px) {
+  .scrollUp {
+    top: -25rem;
+  }
+}
